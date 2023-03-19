@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from src.trackList.main import TrackListRouter
 # Run API:
-# uvicorn main:app
+# uvicorn main:app --reload
 app = FastAPI()
 
 # Add Routers
